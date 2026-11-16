@@ -1,64 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:padding="16dp">
 
     <ImageView
+        android:id="@+id/imgLogo"
         android:layout_width="96dp"
         android:layout_height="96dp"
-        android:id="@+id/imgLogo"
         android:src="@mipmap/ic_launcher"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
+        android:id="@+id/edtUser"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:id="@+id/edtUser"
+        android:layout_marginTop="24dp"
         android:hint="Username"
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imgLogo"
-        />
+        app:layout_constraintTop_toBottomOf="@+id/imgLogo" />
 
     <EditText
+        android:id="@+id/edtPass"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:id="@+id/edtPass"
-        android:hint="password"
+        android:hint="Password"
         android:inputType="textPassword"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/edtUser"
-        />
+        app:layout_constraintTop_toBottomOf="@+id/edtUser" />
 
     <Button
+        android:id="@+id/btnLogin"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:id="@+id/btnLogin"
         android:layout_marginTop="24dp"
         android:text="Log In"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.3"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/edtPass"
-        app:layout_constraintWidth_percent="0.5"
-        />
+        app:layout_constraintWidth_percent="0.5" />
 
     <TextView
+        android:id="@+id/txtForgot"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/txtForgot"
-        android:text="Forgot Password?"
+        android:text="Forgot password?"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        />
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

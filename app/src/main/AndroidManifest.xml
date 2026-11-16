@@ -25,7 +25,6 @@
         <activity android:name=".FrameActivity" />
         <activity android:name=".TableActivity" />
         <activity android:name=".RecyclerActivity" />
-        <activity android:name=".ComposeActivity" />
 
     </application>
 
