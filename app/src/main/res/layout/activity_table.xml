@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:stretchColumns="1">
+
+    <TableRow>
+        <TextView
+            android:padding="8dp"
+            android:text="Name"
+            android:textStyle="bold" />
+        <TextView
+            android:padding="8dp"
+            android:text="Marks"
+            android:textStyle="bold" />
+        <TextView
+            android:padding="8dp"
+            android:text="Grade"
+            android:textStyle="bold" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:padding="8dp"
+            android:text="Aisyah" />
+        <TextView
+            android:padding="8dp"
+            android:text="92" />
+        <TextView
+            android:padding="8dp"
+            android:text="A" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:padding="8dp"
+            android:text="Farid" />
+        <TextView
+            android:padding="8dp"
+            android:text="78" />
+        <TextView
+            android:padding="8dp"
+            android:text="B+" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:padding="8dp"
+            android:text="Mei Ling" />
+        <TextView
+            android:padding="8dp"
+            android:text="85" />
+        <TextView
+            android:padding="8dp"
+            android:text="A-" />
+    </TableRow>
+
+</TableLayout>
