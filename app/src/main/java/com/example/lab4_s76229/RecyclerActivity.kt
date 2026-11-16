@@ -7,7 +7,7 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.layoutlab.databinding.ActivityRecyclerBinding
+import com.example.lab4_s76229.databinding.ActivityRecyclerBinding
 
 class RecyclerActivity : AppCompatActivity() {
 

@@ -3,7 +3,7 @@ package com.example.lab4_s76229
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.example.layoutlab.databinding.ItemStudentBinding
+import com.example.lab4_s76229.databinding.ItemStudentBinding
 
 data class Student(val name: String, val score: Int)
 
